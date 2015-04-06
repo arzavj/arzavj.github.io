@@ -68,7 +68,11 @@
   z-index: 3; /* slide under groups 1 and 3 */
 }
 #group-hi .parallax__layer--back {
-  background: url(../images/stanford.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/stanford.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #group3 {
